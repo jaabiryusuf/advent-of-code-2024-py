@@ -1,0 +1,17 @@
+[project]
+name = "advent-of-code-2024-py"
+version = "0.1.0"
+description = "My second attempt at completing AoC challenge!"
+readme = "README.md"
+authors = [
+    { name = "jaabir.yusuf", email = "jaabir.yusuf@engineering.digital.dwp.gov.uk" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+advent-of-code-2024-py = "day_1:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
